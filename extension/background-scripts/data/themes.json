@@ -1,0 +1,981 @@
+{
+  "default": {
+    "displayName": "Default Deluxe",
+    "cssProperties": {
+      "--color-accent": "#e8e8e8",
+      "--color-text": "#adadad",
+      "--color-base00": "#141414",
+      "--color-base01": "#1f1f1f",
+      "--color-base02": "#2c2c2c",
+      "--color-base03": "#383838",
+      "--color-homepage-sidebars-bg": "#0b0b0b1a",
+      "--color-splashtext": "#e8e8e8",
+      "--darken-background": "#0b0b0b4d"
+    }
+  },
+  "white": {
+    "displayName": "Off White",
+    "cssProperties": {
+      "--color-accent": "#4d5da2",
+      "--color-base00": "#f5fefe",
+      "--color-base01": "#eef7f7",
+      "--color-base02": "#dde6e6",
+      "--color-base03": "#cfd7d7",
+      "--color-homepage-sidebars-bg": "#e1e5e51a",
+      "--color-splashtext": "#1c1916",
+      "--color-text": "#1c1916",
+      "--darken-background": "#e1e5e566"
+    }
+  },
+  "ldev": {
+    "displayName": "Dark Sands",
+    "cssProperties": {
+      "--color-accent": "lch(88.37 27.48 70.54)",
+      "--color-base00": "lch(4% 1 40)",
+      "--color-base01": "lch(10% 1 40)",
+      "--color-base02": "lch(20% 1 40)",
+      "--color-base03": "#545251",
+      "--color-homepage-sidebars-bg": "#0907071a",
+      "--color-splashtext": "#ccccca",
+      "--color-text": "#ccccca",
+      "--darken-background": "#0907074d"
+    }
+  },
+  "birb": {
+    "displayName": "Midnight Sapphire",
+    "cssProperties": {
+      "--color-accent": "#6e81b1",
+      "--color-base00": "#111117",
+      "--color-base01": "#18191d",
+      "--color-base02": "#232428",
+      "--color-base03": "#3a3c44",
+      "--color-homepage-sidebars-bg": "#09090e1a",
+      "--color-splashtext": "#6e81b1",
+      "--color-text": "#a8a9ab",
+      "--darken-background": "#09090e4d"
+    }
+  },
+  "stalker": {
+    "displayName": "Ruby Eclipse",
+    "cssProperties": {
+      "--color-accent": "#d6574e",
+      "--color-text": "#f8a99c",
+      "--color-base00": "#1a1311",
+      "--color-base01": "#371b19",
+      "--color-base02": "#5c1c1a",
+      "--color-base03": "#823530",
+      "--color-homepage-sidebars-bg": "#100b091a",
+      "--color-splashtext": "#f8a99c",
+      "--darken-background": "#100b094d"
+    }
+  },
+  "purple": {
+    "displayName": "Neon Violet",
+    "cssProperties": {
+      "--color-accent": "#bd4fb3",
+      "--color-base00": "#0b021d",
+      "--color-base01": "#130332",
+      "--color-base02": "#250654",
+      "--color-base03": "#3f0a74",
+      "--color-homepage-sidebars-bg": "#0601121a",
+      "--color-splashtext": "#d9cdff",
+      "--color-text": "#d9cdff",
+      "--darken-background": "#0601124d"
+    }
+  },
+  "chocolate": {
+    "displayName": "Dark Mocha",
+    "cssProperties": {
+      "--color-accent": "#cdbcb4",
+      "--color-base00": "#20181c",
+      "--color-base01": "#2c2326",
+      "--color-base02": "#3b2e2e",
+      "--color-base03": "#4c3e3e",
+      "--color-homepage-sidebars-bg": "#140f111a",
+      "--color-splashtext": "#dcdad0",
+      "--color-text": "#dcdad0",
+      "--darken-background": "#140f114d"
+    }
+  },
+  "fall": {
+    "displayName": "Autumn Gloom",
+    "cssProperties": {
+      "--color-accent": "#f46908",
+      "--color-base00": "#1d0a03",
+      "--color-base01": "#4b1c0c",
+      "--color-base02": "#7f361d",
+      "--color-base03": "#af4623",
+      "--color-homepage-sidebars-bg": "#1205011a",
+      "--color-splashtext": "#f8d8b0",
+      "--color-text": "#f8d8b0",
+      "--darken-background": "#1205014d"
+    }
+  },
+  "winter": {
+    "displayName": "Arctic Azure",
+    "cssProperties": {
+      "--color-accent": "#8aadb6",
+      "--color-base00": "#071b2c",
+      "--color-base01": "#152f47",
+      "--color-base02": "#345f7f",
+      "--color-base03": "#5687b6",
+      "--color-homepage-sidebars-bg": "#06101a1a",
+      "--color-splashtext": "#c2bab2",
+      "--color-text": "#c2bab2",
+      "--darken-background": "#06101a4d"
+    }
+  },
+  "matcha": {
+    "displayName": "Matcha Green",
+    "cssProperties": {
+      "--color-accent": "#d1f8e7",
+      "--color-base00": "#243926",
+      "--color-base01": "#365138",
+      "--color-base02": "#456046",
+      "--color-base03": "#4f7a51",
+      "--color-homepage-sidebars-bg": "#1620171a",
+      "--color-splashtext": "#d1ebd2",
+      "--color-text": "#d1ebd2",
+      "--darken-background": "#1620174d"
+    }
+  },
+  "mountain": {
+    "displayName": "Stormy Peaks",
+    "cssProperties": {
+      "--color-accent": "#f1f8ff",
+      "--color-base00": "#090c10",
+      "--color-base01": "#1a2332",
+      "--color-base02": "#2c3b53",
+      "--color-base03": "#3e5374",
+      "--color-homepage-sidebars-bg": "#0406091a",
+      "--color-splashtext": "#c1cadc",
+      "--color-text": "#c1cadc",
+      "--darken-background": "#0406094d"
+    }
+  },
+  "vax": {
+    "displayName": "Star Wars",
+    "cssProperties": {
+      "--color-accent": "#7a1600",
+      "--color-text": "#ffe4c4",
+      "--color-base00": "#411900",
+      "--color-base01": "#724021",
+      "--color-base02": "#b9815d",
+      "--color-base03": "#caa288",
+      "--color-homepage-sidebars-bg": "#02020585",
+      "--darken-background": "rgba(0,0,0,0.15)",
+      "--color-splashtext": "#7a1600"
+    }
+  },
+  "sand": {
+    "displayName": "Sahara Oasis",
+    "cssProperties": {
+      "--color-accent": "#8097c5",
+      "--color-base00": "#2e2526",
+      "--color-base01": "#3d3434",
+      "--color-base02": "#544848",
+      "--color-base03": "#634f4e",
+      "--color-homepage-sidebars-bg": "#1a16171a",
+      "--color-splashtext": "#c1a49c",
+      "--color-text": "#c1a49c",
+      "--darken-background": "#1a16174d"
+    }
+  },
+  "pizza": {
+    "displayName": "Pizza",
+    "cssProperties": {
+      "--color-accent": "#af654b",
+      "--color-base00": "#e4dbcb",
+      "--color-base01": "#dcd0ba",
+      "--color-base02": "#d3c4a9",
+      "--color-base03": "#c2ad87",
+      "--color-homepage-sidebars-bg": "#dcd4c61a",
+      "--color-splashtext": "#573c28",
+      "--color-text": "#573c28",
+      "--darken-background": "#dcd4c666"
+    }
+  },
+  "galaxy": {
+    "displayName": "Fluorescent Galaxy",
+    "cssProperties": {
+      "--color-accent": "#ed0ff1",
+      "--color-base00": "#0c0227",
+      "--color-base01": "#140243",
+      "--color-base02": "#220474",
+      "--color-base03": "#3006a5",
+      "--color-homepage-sidebars-bg": "#0701181a",
+      "--color-splashtext": "#eaccff",
+      "--color-text": "#eaccff",
+      "--darken-background": "#0701184d"
+    }
+  },
+  "pink": {
+    "displayName": "Cherry Haze",
+    "cssProperties": {
+      "--color-accent": "#bf4183",
+      "--color-base00": "#f7ccd5",
+      "--color-base01": "#fbbecc",
+      "--color-base02": "#f0a8c1",
+      "--color-base03": "#ea8eb0",
+      "--color-homepage-sidebars-bg": "#ebc6d21a",
+      "--color-splashtext": "#6c1c48",
+      "--color-text": "#6c1c48",
+      "--darken-background": "#ebc6d266"
+    }
+  },
+  "fairyblue": {
+    "displayName": "Fairy Blue",
+    "cssProperties": {
+      "--color-accent": "lch(90% 23 260)",
+      "--color-base00": "lch(68% 23 260)",
+      "--color-base01": "lch(73% 23 260)",
+      "--color-base02": "lch(78% 23 260)",
+      "--color-base03": "lch(83% 23 260)",
+      "--color-homepage-sidebars-bg": "#c6d4e81a",
+      "--color-splashtext": "#e4ffff",
+      "--color-text": "#e4ffff",
+      "--darken-background": "#c6d4e866"
+    }
+  },
+  "boringwhite": {
+    "displayName": "Boring white",
+    "cssProperties": {
+      "--color-accent": "#9a9996",
+      "--color-base00": "#ffffff",
+      "--color-base01": "#f6f5f4",
+      "--color-base02": "#deddda",
+      "--color-base03": "#c0bfbc",
+      "--color-homepage-sidebars-bg": "#e1e0df1a",
+      "--color-splashtext": "#000000",
+      "--color-text": "#000000",
+      "--darken-background": "#e1e0df66"
+    }
+  },
+  "tech": {
+    "displayName": "Tech",
+    "cssProperties": {
+      "--color-accent": "#ff39ff",
+      "--color-base00": "#010003",
+      "--color-base01": "#19121f",
+      "--color-base02": "#201826",
+      "--color-base03": "#3e3545",
+      "--color-homepage-sidebars-bg": "#0000011a",
+      "--color-splashtext": "#00f0fe",
+      "--color-text": "#00f0fe",
+      "--darken-background": "#0000014d"
+    }
+  },
+  "keith": {
+    "displayName": "Keith",
+    "cssProperties": {
+      "--color-accent": "#9f6ca2",
+      "--color-text": "#cdb4d4",
+      "--color-base00": "#060504",
+      "--color-base01": "#271d16",
+      "--color-base02": "#483628",
+      "--color-base03": "#694f3a",
+      "--darken-background": "#0303024d"
+    }
+  },
+  "error": {
+    "displayName": "Error",
+    "cssProperties": {
+      "--color-accent": "#ff0033",
+      "--color-base00": "#0a0002",
+      "--color-base01": "#150008",
+      "--color-base02": "#2a0a15",
+      "--color-base03": "#471a28",
+      "--color-homepage-sidebars-bg": "#0500011a",
+      "--color-splashtext": "#00fff7",
+      "--color-text": "#00fff7",
+      "--darken-background": "#0500014d"
+    }
+  },
+  "smkerst": {
+    "displayName": "Smartschool Kerst",
+    "cssProperties": {
+      "--color-accent": "#f6ed4f",
+      "--color-base00": "#051e45",
+      "--color-base01": "#124f96",
+      "--color-base02": "#3071c9",
+      "--color-base03": "#4b47c0",
+      "--color-homepage-sidebars-bg": "#0c12251a",
+      "--color-splashtext": "#dff1e1",
+      "--color-text": "#dff1e1",
+      "--darken-background": "#0c12254d"
+    }
+  },
+  "japan": {
+    "displayName": "Pink Japan",
+    "cssProperties": {
+      "--color-accent": "#97698b",
+      "--color-base00": "#170d14",
+      "--color-base01": "#37202f",
+      "--color-base02": "#57334b",
+      "--color-base03": "#774667",
+      "--color-homepage-sidebars-bg": "#0e070b1a",
+      "--color-splashtext": "#d4abb8",
+      "--color-text": "#d4abb8",
+      "--darken-background": "#0e070b4d"
+    }
+  },
+  "summer": {
+    "displayName": "Sunset Beach",
+    "cssProperties": {
+      "--color-accent": "#268e99",
+      "--color-base00": "#efe9d3",
+      "--color-base01": "#f2e8ca",
+      "--color-base02": "#e2d4ac",
+      "--color-base03": "#c4c8c7",
+      "--color-homepage-sidebars-bg": "#e4dcc81a",
+      "--color-splashtext": "#5b3d1b",
+      "--color-text": "#5b3d1b",
+      "--darken-background": "#e4dcc866"
+    }
+  },
+  "ocean": {
+    "displayName": "Ocean",
+    "cssProperties": {
+      "--color-accent": "#679bb5",
+      "--color-base00": "#08171e",
+      "--color-base01": "#122839",
+      "--color-base02": "#17384f",
+      "--color-base03": "#3f6981",
+      "--color-homepage-sidebars-bg": "#040e131a",
+      "--color-splashtext": "#b8c8d5",
+      "--color-text": "#b8c8d5",
+      "--darken-background": "#040e134d"
+    }
+  },
+  "defaultCustom": {
+    "displayName": "New theme",
+    "cssProperties": {
+      "--color-accent": "#4a9eff",
+      "--color-base00": "#1a1a1a",
+      "--color-base01": "#2a2a2a",
+      "--color-base02": "#3a3a3a",
+      "--color-base03": "#5a5a5a",
+      "--color-homepage-sidebars-bg": "#1010101a",
+      "--color-splashtext": "#e0e0e0",
+      "--color-text": "#e0e0e0",
+      "--darken-background": "#1010104d"
+    }
+  },
+  "otters": {
+    "cssProperties": {
+      "--color-accent": "#fcc464",
+      "--color-base00": "#09181f",
+      "--color-base01": "#0c3649",
+      "--color-base02": "#135675",
+      "--color-base03": "#1a76a1",
+      "--color-homepage-sidebars-bg": "#050e131a",
+      "--color-splashtext": "#fff1d7",
+      "--color-text": "#fff1d7",
+      "--darken-background": "#050e134d"
+    },
+    "displayName": "Sea Otters"
+  },
+
+  "darkglass": {
+    "cssProperties": {
+      "--color-accent": "#5e78f8",
+      "--color-base00": "#010a2c",
+      "--color-base01": "#0a1a5b",
+      "--color-base02": "#142d8d",
+      "--color-base03": "#1e40c4",
+      "--color-homepage-sidebars-bg": "#03051a1a",
+      "--color-splashtext": "#cbd6ff",
+      "--color-text": "#cbd6ff",
+      "--darken-background": "#03051a4d"
+    },
+    "displayName": "Dark Glass"
+  },
+  "lightglass": {
+    "cssProperties": {
+      "--color-accent": "#418494",
+      "--color-base00": "#cdd8e4",
+      "--color-base01": "#bdcbdb",
+      "--color-base02": "#acbed2",
+      "--color-base03": "#8ba4c0",
+      "--color-homepage-sidebars-bg": "#c8d1db1a",
+      "--color-splashtext": "#272f31",
+      "--color-text": "#272f31",
+      "--darken-background": "#c8d1db66"
+    },
+    "displayName": "Light Glass"
+  },
+  "minecraft": {
+    "cssProperties": {
+      "--color-accent": "#f7cb6d",
+      "--color-base00": "#0c171b",
+      "--color-base01": "#1d303d",
+      "--color-base02": "#38566f",
+      "--color-base03": "#9bce75",
+      "--color-homepage-sidebars-bg": "#060e111a",
+      "--color-splashtext": "#feffff",
+      "--color-text": "#feffff",
+      "--darken-background": "#060e114d"
+    },
+    "displayName": "Minecraft"
+  },
+  "lost": {
+    "cssProperties": {
+      "--color-accent": "#c85f4b",
+      "--color-base00": "#10131d",
+      "--color-base01": "#1b1f2d",
+      "--color-base02": "#2f3341",
+      "--color-base03": "#2d395d",
+      "--color-homepage-sidebars-bg": "#090b121a",
+      "--color-splashtext": "#a4b0d4",
+      "--color-text": "#a4b0d4",
+      "--darken-background": "#090b124d"
+    },
+    "displayName": "Lost"
+  },
+  "mclaren": {
+    "cssProperties": {
+      "--color-accent": "#e8a07a",
+      "--color-base00": "#100a08",
+      "--color-base01": "#321f19",
+      "--color-base02": "#54342a",
+      "--color-base03": "#76493b",
+      "--color-homepage-sidebars-bg": "#0905041a",
+      "--color-splashtext": "#eedad6",
+      "--color-text": "#eedad6",
+      "--darken-background": "#0905044d"
+    },
+    "displayName": "McLaren"
+  },
+  "space": {
+    "cssProperties": {
+      "--color-accent": "#915ab0",
+      "--color-base00": "#130f19",
+      "--color-base01": "#2c213a",
+      "--color-base02": "#45345a",
+      "--color-base03": "#5e477a",
+      "--color-homepage-sidebars-bg": "#0b080f1a",
+      "--color-splashtext": "#c3bdd8",
+      "--color-text": "#c3bdd8",
+      "--darken-background": "#0b080f4d"
+    },
+    "displayName": "Space"
+  },
+  "night": {
+    "cssProperties": {
+      "--color-accent": "#be6237",
+      "--color-base00": "#050709",
+      "--color-base01": "#192228",
+      "--color-base02": "#2c3d48",
+      "--color-base03": "#3f5868",
+      "--color-homepage-sidebars-bg": "#0204041a",
+      "--color-splashtext": "#c2e1e8",
+      "--color-text": "#c2e1e8",
+      "--darken-background": "#0204044d"
+    },
+    "displayName": "Starful Night"
+  },
+  "lake": {
+    "cssProperties": {
+      "--color-accent": "#b57e4a",
+      "--color-base00": "#dacdb8",
+      "--color-base01": "#d1c1a8",
+      "--color-base02": "#c8b597",
+      "--color-base03": "#c29f65",
+      "--color-homepage-sidebars-bg": "#d7ccbd1a",
+      "--color-splashtext": "#4d3c31",
+      "--color-text": "#4d3c31",
+      "--darken-background": "#d7ccbd66"
+    },
+    "displayName": "Moody Lake"
+  },
+  "fuji": {
+    "cssProperties": {
+      "--color-accent": "#834561",
+      "--color-base00": "#bedefc",
+      "--color-base01": "#abceee",
+      "--color-base02": "#88b3db",
+      "--color-base03": "#78acdd",
+      "--color-homepage-sidebars-bg": "#b8cbe01a",
+      "--color-splashtext": "#003049",
+      "--color-text": "#003049",
+      "--darken-background": "#b8cbe066"
+    },
+    "displayName": "Fuji"
+  },
+  "nightlife": {
+    "cssProperties": {
+      "--color-accent": "#e1482d",
+      "--color-base00": "#042124",
+      "--color-base01": "#052b30",
+      "--color-base02": "#073f45",
+      "--color-base03": "#47848b",
+      "--color-homepage-sidebars-bg": "#0414161a",
+      "--color-splashtext": "#ececff",
+      "--color-text": "#ececff",
+      "--darken-background": "#0414164d"
+    },
+    "displayName": "Nightlife"
+  },
+  "tokyo": {
+    "cssProperties": {
+      "--color-accent": "#fb9307",
+      "--color-base00": "#011820",
+      "--color-base01": "#033c51",
+      "--color-base02": "#056182",
+      "--color-base03": "#f79b7d",
+      "--color-homepage-sidebars-bg": "#010e141a",
+      "--color-splashtext": "#f4e5e0",
+      "--color-text": "#f4e5e0",
+      "--darken-background": "#010e144d"
+    },
+    "displayName": "Tokyo"
+  },
+  "greenneon": {
+    "cssProperties": {
+      "--color-accent": "#e00c1f",
+      "--color-base00": "#0c1710",
+      "--color-base01": "#16291d",
+      "--color-base02": "#24412f",
+      "--color-base03": "#c68c02",
+      "--color-homepage-sidebars-bg": "#060e091a",
+      "--color-splashtext": "#cbffd8",
+      "--color-text": "#cbffd8",
+      "--darken-background": "#060e094d"
+    },
+    "displayName": "Neon Shinjuku"
+  },
+  "morninglake": {
+    "cssProperties": {
+      "--color-accent": "#5f8da0",
+      "--color-base00": "#0e1a1a",
+      "--color-base01": "#1f3c3c",
+      "--color-base02": "#315d5d",
+      "--color-base03": "#437e7e",
+      "--color-homepage-sidebars-bg": "#0710101a",
+      "--color-splashtext": "#acc2d4",
+      "--color-text": "#acc2d4",
+      "--darken-background": "#0710104d"
+    },
+    "displayName": "Morning Lake"
+  },
+  "bluemountain": {
+    "cssProperties": {
+      "--color-accent": "#044d80",
+      "--color-base00": "#c8d9e0",
+      "--color-base01": "#b8cdd6",
+      "--color-base02": "#a8c2cd",
+      "--color-base03": "#88abba",
+      "--color-homepage-sidebars-bg": "#c6d3d81a",
+      "--color-splashtext": "#232e36",
+      "--color-text": "#232e36",
+      "--darken-background": "#c6d3d866"
+    },
+    "displayName": "Blue Mountains"
+  },
+  "cloudyluna": {
+    "cssProperties": {
+      "--color-accent": "#bb5876",
+      "--color-base00": "#0e0f1a",
+      "--color-base01": "#21223a",
+      "--color-base02": "#33355b",
+      "--color-base03": "#45487c",
+      "--color-homepage-sidebars-bg": "#0708101a",
+      "--color-splashtext": "#dcb3ce",
+      "--color-text": "#dcb3ce",
+      "--darken-background": "#0708104d"
+    },
+    "displayName": "Cloudy Luna"
+  },
+  "redsky": {
+    "cssProperties": {
+      "--color-accent": "#f24856",
+      "--color-base00": "#021b22",
+      "--color-base01": "#09333e",
+      "--color-base02": "#0e4755",
+      "--color-base03": "#6b8d95",
+      "--color-homepage-sidebars-bg": "#0211151a",
+      "--color-splashtext": "#ffd8d7",
+      "--color-text": "#ffd8d7",
+      "--darken-background": "#0211154d"
+    },
+    "displayName": "Crimson Sky"
+  },
+  "luna": {
+    "cssProperties": {
+      "--color-accent": "#594c85",
+      "--color-base00": "#000000",
+      "--color-base01": "#151515",
+      "--color-base02": "#232225",
+      "--color-base03": "#363539",
+      "--color-homepage-sidebars-bg": "#0000001a",
+      "--color-splashtext": "#acbce4",
+      "--color-text": "#acbce4",
+      "--darken-background": "#0000004d"
+    },
+    "displayName": "Moon"
+  },
+  "dino": {
+    "cssProperties": {
+      "--color-accent": "#e3b21b",
+      "--color-base00": "#174755",
+      "--color-base01": "#1c687f",
+      "--color-base02": "#1990b5",
+      "--color-base03": "#45b9dc",
+      "--color-homepage-sidebars-bg": "#13262c1a",
+      "--color-splashtext": "#d6f1f6",
+      "--color-text": "#d6f1f6",
+      "--darken-background": "#13262c4d"
+    },
+    "displayName": "Dyno"
+  },
+  "lonelycat": {
+    "cssProperties": {
+      "--color-accent": "#eca009",
+      "--color-base00": "#011122",
+      "--color-base01": "#032953",
+      "--color-base02": "#044185",
+      "--color-base03": "#b9886e",
+      "--color-homepage-sidebars-bg": "#0109151a",
+      "--color-splashtext": "#ffece2",
+      "--color-text": "#ffece2",
+      "--darken-background": "#0109154d"
+    },
+    "displayName": "Lonely Cat"
+  },
+  "hole": {
+    "cssProperties": {
+      "--color-accent": "#b36c46",
+      "--color-base00": "#100d0d",
+      "--color-base01": "#1d1c1b",
+      "--color-base02": "#2b2927",
+      "--color-base03": "#a3705a",
+      "--color-homepage-sidebars-bg": "#0907071a",
+      "--color-splashtext": "#e4cfc2",
+      "--color-text": "#e4cfc2",
+      "--darken-background": "#0907074d"
+    },
+    "displayName": "Gargantua"
+  },
+  "redmoon": {
+    "cssProperties": {
+      "--color-accent": "#cc4d51",
+      "--color-base00": "#0b0708",
+      "--color-base01": "#2c191d",
+      "--color-base02": "#4c2c33",
+      "--color-base03": "#6c3f49",
+      "--color-homepage-sidebars-bg": "#0604041a",
+      "--color-splashtext": "#ffe5e5",
+      "--color-text": "#ffe5e5",
+      "--darken-background": "#0604044d"
+    },
+    "displayName": "Scarlett moon"
+  },
+  "sunset": {
+    "cssProperties": {
+      "--color-accent": "#f57166",
+      "--color-base00": "#121120",
+      "--color-base01": "#201e38",
+      "--color-base02": "#2c2a4b",
+      "--color-base03": "#575298",
+      "--color-homepage-sidebars-bg": "#0a09141a",
+      "--color-splashtext": "#ede5ff",
+      "--color-text": "#ede5ff",
+      "--darken-background": "#0a09144d"
+    },
+    "displayName": "Sunset Sky"
+  },
+  "aurora": {
+    "cssProperties": {
+      "--color-accent": "#45cb9c",
+      "--color-base00": "#0a1413",
+      "--color-base01": "#1b3632",
+      "--color-base02": "#2c5852",
+      "--color-base03": "#2d7168",
+      "--color-homepage-sidebars-bg": "#050b0b1a",
+      "--color-splashtext": "#cce9e6",
+      "--color-text": "#cce9e6",
+      "--darken-background": "#050b0b4d"
+    },
+    "displayName": "Aurora"
+  },
+  "f40": {
+    "cssProperties": {
+      "--color-accent": "#c8466d",
+      "--color-base00": "#fa9bb1",
+      "--color-base01": "#fa8fa8",
+      "--color-base02": "#f27693",
+      "--color-base03": "#f46788",
+      "--color-homepage-sidebars-bg": "#f0afbb1a",
+      "--color-splashtext": "#510209",
+      "--color-text": "#510209",
+      "--darken-background": "#f0afbb66"
+    },
+    "displayName": "Rosé F40"
+  },
+  "911": {
+    "cssProperties": {
+      "--color-accent": "#e44042",
+      "--color-base00": "#e5d6ca",
+      "--color-base01": "#dacdc2",
+      "--color-base02": "#d2c5bb",
+      "--color-base03": "#b6c2c2",
+      "--color-homepage-sidebars-bg": "#dbd4cf1a",
+      "--color-splashtext": "#3d3333",
+      "--color-text": "#3d3333",
+      "--darken-background": "#dbd4cf66"
+    },
+    "displayName": "911"
+  },
+  "purpleporsche": {
+    "cssProperties": {
+      "--color-accent": "#dc2a8f",
+      "--color-base00": "#0a080f",
+      "--color-base01": "#1f1a30",
+      "--color-base02": "#342c51",
+      "--color-base03": "#493e72",
+      "--color-homepage-sidebars-bg": "#0504081a",
+      "--color-splashtext": "#d1cef8",
+      "--color-text": "#d1cef8",
+      "--darken-background": "#0504084d"
+    },
+    "displayName": "Neon Porsche"
+  },
+  "bigsur": {
+    "cssProperties": {
+      "--color-accent": "#6c7ca4",
+      "--color-base00": "#070b0d",
+      "--color-base01": "#1a282d",
+      "--color-base02": "#2c444e",
+      "--color-base03": "#3e606f",
+      "--color-homepage-sidebars-bg": "#0306071a",
+      "--color-splashtext": "#d0c6b1",
+      "--color-text": "#d0c6b1",
+      "--darken-background": "#0306074d"
+    },
+    "displayName": "Big Sur"
+  },
+  "alps": {
+    "cssProperties": {
+      "--color-accent": "#fca434",
+      "--color-base00": "#010f20",
+      "--color-base01": "#022552",
+      "--color-base02": "#043c83",
+      "--color-base03": "#0653b4",
+      "--color-homepage-sidebars-bg": "#0108141a",
+      "--color-splashtext": "#fff5e2",
+      "--color-text": "#fff5e2",
+      "--darken-background": "#0108144d"
+    },
+    "displayName": "Alps"
+  },
+  "darkfuji": {
+    "cssProperties": {
+      "--color-accent": "#c08b55",
+      "--color-base00": "#110d08",
+      "--color-base01": "#21201f",
+      "--color-base02": "#33312e",
+      "--color-base03": "#5f5c59",
+      "--color-homepage-sidebars-bg": "#0907041a",
+      "--color-splashtext": "#c4bbb2",
+      "--color-text": "#c4bbb2",
+      "--darken-background": "#0907044d"
+    },
+    "displayName": "Dark Fuji"
+  },
+  "audi": {
+    "cssProperties": {
+      "--color-accent": "#5c9ca4",
+      "--color-base00": "#0e0a09",
+      "--color-base01": "#2e221c",
+      "--color-base02": "#4e392f",
+      "--color-base03": "#6e5042",
+      "--color-homepage-sidebars-bg": "#0705041a",
+      "--color-splashtext": "#a4ccd4",
+      "--color-text": "#a4ccd4",
+      "--darken-background": "#0705044d"
+    },
+    "displayName": "Audi"
+  },
+  "rallyaudi": {
+    "cssProperties": {
+      "--color-accent": "#df9a13",
+      "--color-base00": "#1d1201",
+      "--color-base01": "#4f3102",
+      "--color-base02": "#805004",
+      "--color-base03": "#b16f06",
+      "--color-homepage-sidebars-bg": "#120a001a",
+      "--color-splashtext": "#faebcb",
+      "--color-text": "#faebcb",
+      "--darken-background": "#120a004d"
+    },
+    "displayName": "Audi Quattro"
+  },
+  "e30": {
+    "cssProperties": {
+      "--color-accent": "#5a90ab",
+      "--color-base00": "#0d1112",
+      "--color-base01": "#232e2f",
+      "--color-base02": "#384a4d",
+      "--color-base03": "#4d666b",
+      "--color-homepage-sidebars-bg": "#07090a1a",
+      "--color-splashtext": "#eccdc5",
+      "--color-text": "#eccdc5",
+      "--darken-background": "#07090a4d"
+    },
+    "displayName": "E30"
+  },
+  "monaco": {
+    "cssProperties": {
+      "--color-accent": "#7cc4d6",
+      "--color-base00": "#0c0c0c",
+      "--color-base01": "#1a1a1a",
+      "--color-base02": "#212122",
+      "--color-base03": "#3a3a3c",
+      "--color-homepage-sidebars-bg": "#0606061a",
+      "--color-splashtext": "#c5c7c8",
+      "--color-text": "#c5c7c8",
+      "--darken-background": "#0606064d"
+    },
+    "displayName": "Monaco Duo"
+  },
+  "smpp": {
+    "cssProperties": {
+      "--color-accent": "#7381ff",
+      "--color-base00": "#22265d",
+      "--color-base01": "#303582",
+      "--color-base02": "#3e44a7",
+      "--color-base03": "#4a4fad",
+      "--color-homepage-sidebars-bg": "#1717301a",
+      "--color-splashtext": "#eeefff",
+      "--color-text": "#eeefff",
+      "--darken-background": "#1717304d"
+    },
+    "displayName": "Smartschool++"
+  },
+  "smpplite": {
+    "cssProperties": {
+      "--color-accent": "#797bc5",
+      "--color-base00": "#fbfcff",
+      "--color-base01": "#e4e8fd",
+      "--color-base02": "#ccd4fb",
+      "--color-base03": "#9dacf7",
+      "--color-homepage-sidebars-bg": "#d8dcf01a",
+      "--color-splashtext": "#28295c",
+      "--color-text": "#28295c",
+      "--darken-background": "#d8dcf066"
+    },
+    "displayName": "Smartschool++ Lite"
+  },
+  "sm": {
+    "cssProperties": {
+      "--color-accent": "#fa7d14",
+      "--color-base00": "#ffffff",
+      "--color-base01": "#ececec",
+      "--color-base02": "#dfdfdf",
+      "--color-base03": "#bfbfbf",
+      "--color-homepage-sidebars-bg": "#e1e1e11a",
+      "--color-splashtext": "#000000",
+      "--color-text": "#000000",
+      "--darken-background": "#e1e1e166"
+    },
+    "displayName": "Smartschool"
+  },
+  "neonmclaren": {
+    "cssProperties": {
+      "--color-accent": "#0bf1f8",
+      "--color-base00": "#1d0222",
+      "--color-base01": "#46154d",
+      "--color-base02": "#57245f",
+      "--color-base03": "#794283",
+      "--color-homepage-sidebars-bg": "#1301151a",
+      "--color-splashtext": "#e4faff",
+      "--color-text": "#e4faff",
+      "--darken-background": "#1301154d"
+    },
+    "displayName": "Neon Mclaren"
+  },
+  "dunes": {
+    "cssProperties": {
+      "--color-accent": "#9d464b",
+      "--color-base00": "#deb8a4",
+      "--color-base01": "#d2a892",
+      "--color-base02": "#c89a81",
+      "--color-base03": "#d78c64",
+      "--color-homepage-sidebars-bg": "#d8bfb11a",
+      "--color-splashtext": "#3f3333",
+      "--color-text": "#3f3333",
+      "--darken-background": "#d8bfb166"
+    },
+    "displayName": "Dusk Dunes"
+  },
+  "party": {
+    "cssProperties": {
+      "--color-accent": "#df3f9c",
+      "--color-base00": "#190d1c",
+      "--color-base01": "#43204d",
+      "--color-base02": "#5c276b",
+      "--color-base03": "#7b4889",
+      "--color-homepage-sidebars-bg": "#0f07111a",
+      "--color-splashtext": "#f8e0e1",
+      "--color-text": "#f8e0e1",
+      "--darken-background": "#0f07114d"
+    },
+    "displayName": "Fuchsia Party"
+  },
+  "dragon": {
+    "cssProperties": {
+      "--color-accent": "#e29376",
+      "--color-base00": "#261415",
+      "--color-base01": "#6f4244",
+      "--color-base02": "#8e5052",
+      "--color-base03": "#bb6b6e",
+      "--color-homepage-sidebars-bg": "#180c0c1a",
+      "--color-splashtext": "#ecd7ce",
+      "--color-text": "#ecd7ce",
+      "--darken-background": "#180c0c4d"
+    },
+    "displayName": "Knight vs Dragon"
+  },
+  "softwinter": {
+    "cssProperties": {
+      "--color-accent": "#d48c60",
+      "--color-base00": "#e3d6cf",
+      "--color-base01": "#d9c8bf",
+      "--color-base02": "#d0baaf",
+      "--color-base03": "#bc927d",
+      "--color-homepage-sidebars-bg": "#dacfc91a",
+      "--color-splashtext": "#344071",
+      "--color-text": "#344071",
+      "--darken-background": "#dacfc966"
+    },
+    "displayName": "Soft Winter"
+  },
+  "grassy": {
+    "cssProperties": {
+      "--color-accent": "#aac873",
+      "--color-base00": "#151f15",
+      "--color-base01": "#283d27",
+      "--color-base02": "#344f33",
+      "--color-base03": "#447342",
+      "--color-homepage-sidebars-bg": "#0d130c1a",
+      "--color-splashtext": "#d2dde6",
+      "--color-text": "#d2dde6",
+      "--darken-background": "#0d130c4d"
+    },
+    "displayName": "Grassy Forest"
+  },
+  "misty": {
+    "cssProperties": {
+      "--color-accent": "#c4a400",
+      "--color-base00": "#fbe4aa",
+      "--color-base01": "#f9dc92",
+      "--color-base02": "#f8d47a",
+      "--color-base03": "#f5c44a",
+      "--color-homepage-sidebars-bg": "#f1dcb01a",
+      "--color-splashtext": "#4c4d09",
+      "--color-text": "#4c4d09",
+      "--darken-background": "#f1dcb066"
+    },
+    "displayName": "Misty Mountains"
+  }
+}

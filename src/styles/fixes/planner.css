@@ -1,0 +1,1916 @@
+its.header__day,
+.form__valuem,
+.form__value__placeholder,
+.form__value__description,
+.form__value__element,
+.form__value--period {
+  color: var(--color-text) !important;
+}
+
+.timegrid__header .header__days-heading .header__day--today {
+  background-color: var(--color-base02) !important;
+}
+
+.highlight.header__day:not(.header__wholeday-column) {
+  background: var(--color-accent) !important;
+}
+
+.highlight.header__day:not(.header__wholeday-column) > .day,
+.highlight.header__day:not(.header__wholeday-column) > .day--thin {
+  color: var(--color-base02) !important;
+}
+
+.highlight,
+.btn,
+.dialog-content {
+  background: var(--color-base01) !important;
+  border-color: var(--color-base02) !important;
+}
+
+.label__resolvedStatus {
+  color: var(--color-base01) !important;
+}
+
+.icon-label-btn--linkbutton .icon-label {
+  color: var(--color-accent) !important;
+  fill: var(--color-accent) !important;
+}
+
+.listview__row,
+.planned-element-type-label,
+.listview__cell,
+.form__row--assignmentType--view {
+  color: var(--color-text) !important;
+}
+
+.msg--bubble--blue {
+  background-color: var(--color-blue) !important;
+}
+
+.msg--bubble--green {
+  background-color: var(--color-green) !important;
+}
+
+.splitdetail__content {
+  background-color: var(--color-base01) !important;
+  color: var(--color-text) !important;
+  border: 2px solid var(--color-accent) !important;
+  border-radius: 25px !important;
+}
+
+.form__label {
+  color: var(--color-text) !important;
+}
+
+.newsTitle1,
+.newsTitle2 {
+  color: var(--color-text) !important;
+}
+
+.content__hourblock.js-hourblock {
+  border-top: 1px dotted !important;
+  border-top-color: var(--color-text) !important;
+}
+
+.content__hourblock.content__hourblock--last.js-hourblock {
+  border-bottom: 1px dotted !important;
+  border-bottom-color: var(--color-text) !important;
+}
+
+.inline-editor__input:hover,
+.inline-editor__input::placeholder,
+.planner-header .header__borderdropdowncontainer:hover:after,
+.inline-editor__input,
+.inline-editor:not([readonly]):hover:after {
+  background-color: var(--color-base00) !important;
+}
+
+.form__label--required::after {
+  color: var(--color-accent) !important;
+}
+
+.todo-column__row--hovering {
+  background-color: var(--color-base02) !important;
+  border-radius: 7px !important;
+}
+.iconButtonBar-yvqd2.dateRowActionButtonbar-ii94H,
+.iconButtonBar-yvqd2.todoRowActionButtonbar-iegvK {
+  background-color: var(--color-base02) !important;
+  transition: none !important;
+  display: flex !important;
+  flex-direction: row !important;
+  border-radius: 1rem !important;
+  padding: 0.25rem !important;
+  box-shadow: 0px 2px 10px 0px var(--color-shadow) !important;
+  top: 0.25rem !important;
+  right: 0.25rem !important;
+}
+
+[listview] .listview__action-btn {
+  height: 100% !important;
+}
+.iconButton-D88Yh {
+  border-radius: 0.75rem !important;
+}
+.iconButton-D88Yh:hover {
+  background-color: var(--color-base03) !important;
+}
+
+.todoColumn-SiOZY {
+  height: fit-content !important;
+  display: block !important;
+}
+
+.updateRangeButton-tKypS {
+  margin: 0 !important;
+  margin-left: 1.25rem !important;
+}
+
+.todoColumnContent-vMdwk {
+  background-color: var(--color-base00) !important;
+  height: fit-content !important;
+  max-height: 100% !important;
+  border-radius: 2rem !important;
+  margin-right: 1rem !important;
+  padding: 1.5rem 0.25rem !important;
+  gap: 0.75rem !important;
+}
+.glass .todoColumnContent-vMdwk {
+  background-color: var(--darken-background) !important;
+  backdrop-filter: var(--medium-blur) !important;
+}
+
+.dropdownMenuItem-Vszox[data-selected="true"] {
+  border-radius: 0.75rem !important;
+}
+
+.today-and-next-days__bubble .dropdown-menu {
+  gap: 2px !important;
+}
+
+.todo-column
+  [listview]
+  .todo-column__row:hover
+  .todo-column__date-cell
+  + .todo-column__actions-cell {
+  top: 0.25rem !important;
+  right: 0.25rem !important;
+  border-radius: 1rem !important;
+  height: calc(100% - 0.5rem) !important;
+}
+
+.listview__action-btns .listview__action-btn {
+  border: none !important;
+  border-radius: 0.75rem !important;
+}
+.listview__action-btn:hover {
+  background-color: var(--color-base03) !important;
+}
+.bubble-s87kI.tooltip-uUxmN {
+  border-radius: 1rem !important;
+  padding: 0.75rem !important;
+  color: var(--color-text) !important;
+  box-shadow: 0px 2px 10px 0px var(--color-shadow) !important;
+}
+.glass .todo-column__container {
+  background-color: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.todo-column__container {
+  background: var(--color-base01) !important;
+  border-radius: 2rem !important;
+  padding: 1rem !important;
+}
+.listview__rows > * {
+  margin-left: 0 !important;
+}
+
+.listview__row.js-listview-row.todo__row.todo-column__row,
+.listview__row.js-listview-row.todo__row.todo-column__row--resolved {
+  display: flex !important;
+  flex-direction: row !important;
+  gap: 1rem !important;
+  padding: 0.75rem !important;
+  border-radius: 1.25rem !important;
+}
+
+.listview__row.js-listview-row.todo__row.todo-column__row > * {
+  padding: 0 !important;
+}
+
+.todo-column [listview] .todo-column__icon-cell__wrapper,
+.todo-column [listview] .todo-column__abbreviation-cell__wrapper {
+  border-radius: 0.5rem !important;
+}
+
+.listview__row.js-listview-row.todo-column__row:hover,
+.listview__row.js-listview-row.todo-column__row--resolved:hover,
+.content__day-column.js-day-column.highlight,
+.header__day.header__wholeday-column.js-wholeday-column.highlight {
+  background-color: transparent !important;
+}
+
+.todo-column [listview] .todo-column__date-cell {
+  padding: 0.75rem !important;
+}
+
+.listview__row.js-listview-row.todo-column__row:has(
+    .todo-column__date-cell
+  ):not(:first-of-type) {
+  margin-top: 0.5rem !important;
+}
+
+.todo-column__container .todo-column__pinned > * {
+  margin-left: 0 !important;
+}
+
+.todo-column__container .todo-column__pinned span.todo-column__pinned__title {
+  margin-left: 0.75rem !important;
+  color: var(--color-accent) !important;
+}
+
+hr.separator.todo-column__pinned__seperator {
+  display: none !important;
+}
+
+.selectview__hotkey-M span:after,
+.selectview__hotkey-W span:after,
+.selectview__hotkey-L span:after,
+.selectview__hotkey-T:after,
+.selectview__hotkey-O span:after {
+  color: var(--color-text) !important;
+  opacity: 0.7 !important;
+}
+
+.lessonClusterListViewWrapper-ekr0X {
+  background-color: var(--color-base00) !important;
+  box-shadow: none !important;
+}
+
+.icon-label-btn--blob.icon-label-btn,
+.btn:hover {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+.icon-label-btn--blob.icon-label-btn:hover {
+  background-color: var(--color-base03) !important;
+}
+
+.timeinput {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-accent) !important;
+}
+
+.header__horizdivider {
+  background-color: var(--color-base01) !important;
+}
+
+.twinbutton__button:hover {
+  border-color: var(--color-accent) !important;
+}
+
+.twinbutton__button:hover {
+  background-color: var(--darken-background) !important;
+}
+.glass .planner-header .header__borderdropdowncontainer {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.planner-header .header__borderdropdowncontainer {
+  background: var(--color-base01) !important;
+  border-radius: 1rem !important;
+  border: 2px solid transparent !important;
+}
+
+.planner-header .header__borderdropdowncontainer:hover {
+  border-color: var(--color-accent) !important;
+}
+
+.render-on-mode-change:hover {
+  border-color: transparent !important;
+}
+
+/* view select (Weekweergave) - hash-independent so it survives smartschool updates */
+.planner-header .header__borderdropdowncontainer button,
+.planner-header .header__borderdropdowncontainer select,
+.planner-header .render-on-mode-change button,
+.planner-header .render-on-mode-change select,
+.planner-header .selectview button {
+  background: transparent !important;
+  color: var(--color-text) !important;
+  border-color: transparent !important;
+}
+
+.planner-header .selectview,
+.planner-header .render-on-mode-change {
+  background: var(--color-base01) !important;
+  border-radius: 1rem !important;
+  color: var(--color-text) !important;
+  border-color: transparent !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.glass .planner-header .selectview,
+.glass .planner-header .render-on-mode-change {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.planner-header [class*="selectview"]:not([class*="selectview__"]),
+.planner-header [class*="render-on-mode"] {
+  background: var(--color-base01) !important;
+  border-radius: 1rem !important;
+  color: var(--color-text) !important;
+  border-color: transparent !important;
+}
+
+.glass .planner-header [class*="selectview"]:not([class*="selectview__"]),
+.glass .planner-header [class*="render-on-mode"] {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.planner-header .header__datepickerbutton {
+  background: var(--color-base01) !important;
+  border-radius: 1rem !important;
+  border-color: transparent !important;
+  color: var(--color-text) !important;
+}
+
+.glass .planner-header .header__datepickerbutton {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+/* Planner header controls (Vandaag, ‹ ›, Alles tonen / filter tree,
+   Weekweergave / view select).
+   Smartschool moved these to Blueprint button-module components whose hash rotates
+   on every update (button-module_button__iK0YS, ...), so the older .selectview /
+   .render-on-mode rules above no longer catch them and they render as pale
+   unstyled text over the custom background. Anchor on the stable module prefix +
+   the bp combo outline class. */
+button[class*="button-module_button__"].bp-c-combo-hover-plain-outline--300,
+button[class*="button-module_button__"].bp-c-combo-plain-outline--300 {
+  color: var(--color-text) !important;
+  background: var(--color-base01) !important;
+  border: 2px solid var(--color-base02) !important;
+  border-radius: 1rem !important;
+}
+
+.glass
+  button[class*="button-module_button__"].bp-c-combo-hover-plain-outline--300,
+.glass button[class*="button-module_button__"].bp-c-combo-plain-outline--300 {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+button[class*="button-module_button__"].bp-c-combo-hover-plain-outline--300:hover,
+button[class*="button-module_button__"].bp-c-combo-plain-outline--300:hover {
+  background: var(--color-base02) !important;
+  border-color: var(--color-accent) !important;
+}
+
+/* label + icons inside the button */
+button[class*="button-module_button__"].bp-c-combo-hover-plain-outline--300
+  [class*="label-"],
+button[class*="button-module_button__"].bp-c-combo-hover-plain-outline--300
+  [class*="text-"],
+button[class*="button-module_button__"].bp-c-combo-hover-plain-outline--300
+  svg
+  path,
+button[class*="button-module_button__"].bp-c-combo-plain-outline--300
+  [class*="label-"],
+button[class*="button-module_button__"].bp-c-combo-plain-outline--300
+  [class*="text-"],
+button[class*="button-module_button__"].bp-c-combo-plain-outline--300 svg path {
+  color: var(--color-text) !important;
+  fill: currentColor !important;
+}
+
+.selectview__new-detail-ui,
+[class*="bubble"]:has([class*="selectview__hotkey"]),
+.dropdown-menu:has([class*="selectview__hotkey"]) {
+  background: var(--color-base01) !important;
+  border: none !important;
+  border-radius: 1.25rem !important;
+  box-shadow: 0px 2px 10px 0px var(--color-shadow) !important;
+  padding: 0.75rem !important;
+}
+
+.glass .selectview__new-detail-ui,
+.glass [class*="bubble"]:has([class*="selectview__hotkey"]),
+.glass .dropdown-menu:has([class*="selectview__hotkey"]) {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--medium-blur) !important;
+}
+
+.selectview__new-detail-ui label,
+.selectview__new-detail-ui span,
+[class*="bubble"]:has([class*="selectview__hotkey"]) label,
+[class*="bubble"]:has([class*="selectview__hotkey"]) span {
+  color: var(--color-text) !important;
+}
+
+.selectview__new-detail-ui input[type="radio"],
+[class*="bubble"]:has([class*="selectview__hotkey"]) input[type="radio"] {
+  appearance: none !important;
+  background: var(--color-base02) !important;
+  border: 2px solid var(--color-base03) !important;
+  border-radius: 10000px !important;
+  flex: 0 0 1.3rem !important;
+  width: 1.3rem !important;
+  height: 1.3rem !important;
+}
+
+.selectview__new-detail-ui input[type="radio"]:checked,
+[class*="bubble"]:has([class*="selectview__hotkey"])
+  input[type="radio"]:checked {
+  background: var(--color-accent) !important;
+}
+
+.selectview__new-detail-ui input[type="checkbox"],
+[class*="bubble"]:has([class*="selectview__hotkey"]) input[type="checkbox"] {
+  appearance: none !important;
+  background: var(--color-base02) !important;
+  border: 2px solid var(--color-base03) !important;
+  border-radius: 0.4rem !important;
+  flex: 0 0 1.3rem !important;
+  width: 1.3rem !important;
+  height: 1.3rem !important;
+}
+
+.selectview__new-detail-ui input[type="checkbox"]:checked,
+[class*="bubble"]:has([class*="selectview__hotkey"])
+  input[type="checkbox"]:checked {
+  background: var(--color-accent) !important;
+}
+
+.selectview__new-detail-ui select,
+[class*="bubble"]:has([class*="selectview__hotkey"]) select {
+  background: var(--color-base02) !important;
+  color: var(--color-text) !important;
+  border: 2px solid var(--color-base03) !important;
+  border-radius: 0.5rem !important;
+}
+
+.selectview__new-detail-ui hr,
+.selectview__new-detail-ui .separator,
+[class*="bubble"]:has([class*="selectview__hotkey"]) hr,
+[class*="bubble"]:has([class*="selectview__hotkey"]) .separator {
+  border-color: var(--color-base02) !important;
+  opacity: 0.6 !important;
+}
+
+.glass .twinbutton {
+  background-color: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.twinbutton {
+  background: var(--color-base01) !important;
+  border-radius: 1rem !important;
+}
+
+.twinbutton__button {
+  border-radius: 1rem !important;
+  border-color: transparent !important;
+  border-width: 2px !important;
+  margin: 0 !important;
+  font-size: 1.2rem !important;
+}
+
+[class*="toggleCollapseBtn-"] {
+  border-radius: 1rem !important;
+}
+
+[class*="toggleCollapseBtn-"]:hover,
+[class*="toggleCollapseBtn-"]:focus {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.bubble.sidebar-plan-bubble .plan-tile-wrapper {
+  padding: 0 !important;
+}
+
+.datepicker .block .dates .date--selected {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+.datepicker .block .dates .date--current span {
+  border-color: var(--color-accent) !important;
+}
+
+.header__month,
+.bubble__menu-btn:hover:not(.bubble__menu-btn--active) {
+  background-color: var(--color-base02) !important;
+}
+
+.date:hover span,
+.bubble__menu-btn--active,
+.selectview__new-detail-ui .c-blue-combo--100 {
+  background-color: var(--color-base03) !important;
+  border-radius: 5px !important;
+}
+
+.header__month:hover,
+.header__year:hover,
+.header__year::selection {
+  border: 1px solid var(--color-accent) !important;
+  box-shadow: none !important;
+  background-color: var(--color-base02) !important;
+  border-radius: 0.5rem !important;
+}
+
+.rightblock {
+  border: 2px solid var(--color-base03) !important;
+  box-shadow: none !important;
+  background-color: var(--color-base02) !important;
+  border-radius: 1rem !important;
+}
+
+.header__month,
+.header__year {
+  border: 1px solid transparent;
+}
+
+.header__borderdropdowncontainer::after {
+  display: none !important;
+}
+
+[inline-editor] .inline-editor__input:not([readonly]):focus,
+[inline-editor] .inline-editor__input:not([readonly]):hover {
+  border-color: var(--color-base03) !important;
+}
+
+.choose-metadata__options label.checkbox.checked {
+  background-color: var(--color-base03) !important;
+}
+
+.choose-metadata__options label.checkbox {
+  background-color: var(--color-base01) !important;
+}
+
+.example-card {
+  color: var(--color-text) !important;
+  background-color: var(--color-base00) !important;
+}
+
+.close-btn,
+.splitdetail-top-btn,
+.side-panel__close,
+.smscDialog_header_close {
+  border: 2px solid var(--color-base02) !important;
+  background-color: var(--color-base01) !important;
+  border-radius: 0.75rem !important;
+  margin: 0.5rem !important;
+}
+
+.close-btn:hover,
+.close-btn:hover,
+.side-panel__close:hover,
+.smscDialog_header_close {
+  border-color: var(--color-base03) !important;
+  background-color: var(--color-base02) !important;
+  color: var(--color-red) !important;
+}
+
+.splitdetail-top-btn:hover {
+  border-color: var(--color-base03) !important;
+  background-color: var(--color-base02) !important;
+}
+
+[inline-editor] .inline-editor:not([readonly]):hover:after {
+  border-left: 0px !important;
+  border-color: var(--color-base03) !important;
+}
+
+[inline-editor] .inline-editor:not([readonly]):hover .inline-editor__input {
+  border-color: var(--color-base03) !important;
+}
+
+.blueprintFallback-module_blueprintFallback__OTQiZ .bp-c-combo-danger--300,
+.blueprintFallback-module_blueprintFallback__OTQiZ
+  .bp-c-combo-hover-danger--300,
+.btn--danger,
+.close-btn,
+.splitdetail-right-close-btn {
+  color: var(--color-red) !important;
+}
+
+.datepicker .block .header select.header__month {
+  border: 2px solid transparent !important;
+}
+
+.listview__row.js-listview-row:hover {
+  background-color: transparent !important;
+}
+
+.listview__cell.js-listview-cell.listview__cell--icon-24.attachments__column.attachments__column--icon {
+  background-color: var(--color-base01);
+}
+
+.listview__cell.js-listview-cell.listview__cell--icon-24.attachments__column.attachments__column--icon:hover {
+  background-color: var(--color-base02);
+}
+
+.splitdetail__content .header.js-header {
+  border-bottom-right-radius: 0px !important;
+  border-bottom-left-radius: 0px !important;
+  margin-bottom: 5px !important;
+}
+
+.splitdetail-dialog .splitdetail__content__topbtns {
+  top: 0.5rem !important;
+  right: 0.5rem !important;
+  gap: 0.5rem !important;
+}
+
+.splitdetail-top-btn {
+  margin: 0 !important;
+}
+
+.splitdetail__content__topbtns {
+  background-color: transparent !important;
+}
+
+.detail-lint.js-detail-lint {
+  background-color: transparent !important;
+}
+
+.course-module-planner__timeline
+  .timeline-row.planned-element-row
+  .action-block__buttons {
+  background-color: var(--color-base02) !important;
+}
+
+.enableAnimations
+  .course-module-planner__timeline
+  .timeline-row.planned-element-row
+  .action-block__buttons {
+  transition: ease-in-out !important;
+  transition-duration: 0.2s !important;
+}
+
+button.icon-btn.js-icon-btn:hover {
+  border-color: transparent !important;
+  background-color: var(--color-base03) !important;
+}
+
+.enableAnimations button.icon-btn.js-icon-btn {
+  transition: ease-in-out !important;
+  transition-duration: 0.2s !important;
+}
+
+.splitdetail__content__topbtns {
+  border: 2px solid transparent !important;
+  border-radius: 10px !important;
+}
+
+.swoosh-wrapper {
+  display: none !important;
+}
+
+button.icon-btn.js-icon-btn.header__icon.js-header-icon.icon-btn--32 {
+  background-color: var(--color-base02);
+}
+
+.btn {
+  border: 2px solid var(--color-base02) !important;
+  border-radius: 0.75rem !important;
+}
+
+.btn:hover {
+  border: 2px solid var(--color-base03) !important;
+}
+
+button.btn.close-btn.btn--plain {
+  color: var(--color-red) !important;
+}
+
+button.detail-blob:hover {
+  background-color: var(--color-base03) !important;
+}
+
+button.button-close-svg {
+  display: none !important;
+}
+
+[textarea]:not([focus-within]),
+.detail-description__textarea {
+  border: 2px solid transparent !important;
+  border-radius: 10px !important;
+}
+
+[textarea]:not([focus-within]) [textarea-tinymceinput],
+.detail-description__textarea {
+  border-color: var(--color-base02) !important;
+  border-radius: 1rem !important;
+}
+
+.header.js-header {
+  border-radius: 0px !important;
+}
+
+[textarea]:not([focus-within]):hover:before {
+  display: none !important;
+}
+
+[dialog-content] .dialog__button-bar {
+  border-top: 2px solid var(--color-base02) !important;
+}
+
+input.input.bootstrap__input {
+  background-color: var(--color-base02) !important;
+}
+
+.ple.js-ple.ple--brief.ple--past.ple--pending.ple--no-click,
+.ple-content.ple-content--pending:not(.ple-content--has-problem),
+div#ple-content--temporaryPlaceholder {
+  border-color: var(--color-base02) !important;
+}
+
+button.detail-todo-icon-and-color__icon.active-icon {
+  border: 2px solid var(--color-base03) !important;
+}
+
+button.detail-todo-icon-and-color__icon:hover:not(.active-icon) {
+  border-color: var(--color-base02) !important;
+}
+
+button.detail-todo-icon-and-color__icon {
+  border: 2px solid transparent !important;
+}
+
+.listview__cell.js-listview-cell.listview__cell--icon-24.column-icon {
+  background-color: transparent !important;
+}
+
+.listview__cell.js-listview-cell.listview__cell--icon-24.column-icon:hover {
+  background-color: transparent !important;
+}
+
+.header.js-header.header--single-line {
+  border-radius: 15px !important;
+  border: 1px solid var(--color-base02) !important;
+  padding-right: 10px !important;
+  padding-left: 5px !important;
+  background-color: var(--color-base01) !important;
+  align-self: center !important;
+}
+
+[bubble].bubble--tooltip {
+  color: var(--color-text) !important;
+}
+
+.selected .evaluation-list-item__container__title {
+  font-weight: 700 !important;
+}
+.listview button.evaluation-list-item.selected {
+  box-shadow: none !important;
+  border-color: var(--color-accent) !important;
+  background-color: var(--color-base02) !important;
+  color: var(--color-accent) !important;
+}
+
+.evaluation-list-item {
+  transition: none !important;
+}
+
+.enableAnimations .evaluation-list-item {
+  transition-property: background-color, border-color, box-shadow, color;
+  transition: 0.1s ease-in-out !important;
+}
+.glass button.evaluation-list-item {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--medium-blur);
+}
+
+button.evaluation-list-item {
+  background-color: var(--color-base01) !important;
+  border-radius: 15px !important;
+}
+
+.listview__row.js-listview-row.goals__row {
+  display: none !important;
+}
+
+button.icon-label-btn.js-icon-label-btn.icon-label-btn--linkbutton {
+  box-shadow: none !important;
+  border-color: var(--color-accent) !important;
+  background-color: var(--color-base02) !important;
+  padding: 10px !important;
+  border-radius: 15px !important;
+  border: 2px solid var(--color-accent) !important;
+}
+
+.enableAnimations
+  button.icon-label-btn.js-icon-label-btn.icon-label-btn--linkbutton {
+  transition: ease-in-out 0.1s all !important;
+}
+
+button.icon-label-btn.js-icon-label-btn.icon-label-btn--linkbutton:hover {
+  background-color: var(--color-base03) !important;
+}
+
+.search__maincontainer {
+  background-color: var(--color-base01) !important;
+}
+
+.quick-search .search__listitemwrapper:hover {
+  background-color: var(--color-base02) !important;
+}
+
+[drilldown].drilldown .drilldown__row:hover:not(.drilldown__row--selected) {
+  background-color: var(--color-base02) !important;
+}
+
+[drilldown].drilldown .drilldown__row--selected {
+  background-color: var(--color-base03) !important;
+}
+
+[textarea] [textarea-tinymceinput]:empty:not(:focus):before {
+  color: var(--color-text) !important;
+}
+
+.listview__row.js-listview-row.planner-listview-data-row--selected.js-planner-listview-data-row--selected,
+.month-view
+  .element.show-more-element:not(:hover):not(
+    .state--hovered--forced
+  ).state--hovered
+  .element__label-container {
+  background-color: var(--color-base01) !important;
+}
+
+.month-view .week-day.day--today .day-label {
+  background-color: var(--color-base02) !important;
+}
+
+.month-view .grid-day.state--hovered,
+.month-view .week-day:not(.day--today).state--hovered .day-label {
+  background-color: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.month-view .header-row,
+.month-view .element.show-more-element {
+  background-color: var(--color-base01) !important;
+  border-radius: 10px !important;
+}
+
+.month-view .element.show-more-element:hover .element__label-container {
+  box-shadow: none !important;
+  background-color: var(--color-base02) !important;
+}
+
+.month-view .week-day.state--hovered.day--today .day-label {
+  box-shadow: none !important;
+}
+
+.planner-element {
+  border: 1px solid var(--color-base00) !important;
+  border-radius: 10px !important;
+  padding: 4px !important;
+  margin-bottom: 15px;
+  position: absolute;
+  overflow: hidden;
+  font-size: 10px;
+  min-height: 23px;
+  margin: 1px !important;
+}
+
+.enableAnimations .planner-element {
+  transition: ease-in;
+  transition-duration: 100ms;
+}
+
+.planner-container {
+  display: flex !important;
+  width: 100%;
+  position: relative !important;
+  flex-direction: column;
+}
+
+.no-bottom-margin {
+  margin-bottom: 0px !important;
+}
+
+.planner-title-startpage {
+  display: flex;
+  flex-direction: row;
+  text-align: center !important;
+  width: 100%;
+}
+
+.planning-container {
+  position: relative;
+}
+
+#back_button_planner {
+  background-image: url(https://static6.smart-school.net/smsc/svg/chevron_left/chevron_left_12x12.svg);
+}
+
+#forward_button_planner {
+  background-image: url(https://static6.smart-school.net/smsc/svg/chevron_right/chevron_right_12x12.svg);
+}
+
+#forward_button_planner,
+#back_button_planner {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  height: 2.5rem;
+  appearance: none;
+  padding: 4px 12px;
+  border: 2px solid var(--color-base02);
+  border-radius: 8px;
+  background-color: var(--color-base01);
+}
+
+.enableAnimations #forward_button_planner,
+.enableAnimations #back_button_planner {
+  transition: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+#forward_button_planner:hover,
+#back_button_planner:hover {
+  background-color: var(--color-base02);
+  border-color: var(--color-accent);
+}
+
+.todo-column-container {
+  border-left: 0px !important;
+}
+
+.btn.btn--dropdown:after {
+  background-image: url(/smsc/svg/driehoek_droplist_open/driehoek_droplist_open_9x9.svg) !important;
+}
+
+.btn.btn.btn--warning {
+  text-decoration: underline !important;
+  text-decoration-color: var(--color-accent) !important;
+}
+
+button.btn.btn--dropdown.js-btn,
+button.btn.dropdown-button.js-period-dropdown,
+button.btn.dropdown-button.js-course-dropdown,
+.token-EsU0c /* for dropdown buttons in resultaten -> feedback*/ {
+  border-radius: 0.75rem !important; /*lukas ik weet dat jij mij hier voor gaat haten maar ik heb 2 goeie redenen waarom   1. het is gwn consistent   2. het is beter voor de algemene persoon die net smpp heeft  3.😝*/
+}
+
+button.btn.dropdown-button.js-course-dropdown {
+  max-width: 20rem;
+}
+
+.detail-blob {
+  background-color: var(--color-base02) !important;
+}
+
+.course-page__container,
+.course-module-planner__timeline {
+  background-color: transparent !important;
+}
+
+.course-module-planner__header {
+  border: none !important;
+  border: 2px solid var(--color-base01) !important;
+  border-radius: 1rem !important;
+}
+
+.course-module-planner__header {
+  /* lukas wil je nu 10 of 25 px???*/
+  border-radius: 2rem !important;
+  padding: 1.5rem !important;
+}
+
+.course-module-planner__header:has(.button-container) {
+  background-color: var(--color-base01) !important;
+}
+
+.course-module-planner__header__separator {
+  border-color: var(--color-accent) !important;
+}
+.course-page__container {
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.fluid-ui-heading--1,
+.info-block__daterow,
+.info-block__timerow {
+  color: var(--color-text) !important;
+}
+
+.card-block {
+  background-color: var(--color-base01) !important;
+  border: 2px solid var(--color-base01) !important;
+}
+
+.enableAnimations .card-block {
+  transition: ease-in-out !important;
+  transition-duration: 0.2s !important;
+}
+
+.card-block:hover {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-accent) !important;
+  box-shadow: none !important;
+}
+
+h3.card-block__title.fluid-ui-heading.fluid-ui-heading--3 {
+  color: var(--color-accent) !important;
+}
+
+.month-card-block {
+  border-radius: 5px !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.month-card-block:hover {
+  background-color: transparent !important;
+}
+
+.side-panel__panel {
+  border-top-left-radius: 1rem !important;
+  border-bottom-left-radius: 1rem !important;
+}
+
+.mailingListItem__checkbox_EOMal.bp-c-combo-green--100 {
+  background-color: var(--color-base02) !important;
+}
+
+.mailingListItem__checkbox_EOMal.bp-c-combo-steel--100 {
+  background-color: var(--color-base01) !important;
+}
+
+.hourblock__hour {
+  color: var(--color-text) !important;
+}
+
+.listview__row.js-listview-row:hover {
+  cursor: pointer !important;
+}
+
+.todo-column [listview] .todo-column__details-cell__metadata {
+  color: var(--color-text) !important;
+  opacity: 0.8 !important;
+}
+
+.month-view
+  .element:not(.state--hovered):not(.state--dragging):not(.state--resizing)
+  .element__time-label {
+  color: var(--color-text) !important;
+  opacity: 0.8 !important;
+}
+
+.month-view .header-day .day-label {
+  color: var(--color-text) !important;
+}
+
+.month-view .week-day {
+  border-top: 2px solid var(--color-accent) !important;
+}
+
+.planned-element-type-label span {
+  color: var(--color-text) !important;
+  opacity: 0.7 !important;
+}
+
+.todo-column__container .todo-column__pinned .todo-column__pinned__title {
+  color: var(--color-text) !important;
+}
+
+.splitdetail.splitdetail-dialog.js-splitdetail {
+  gap: 6px !important;
+}
+
+.splitdetail-top-btn > svg {
+  width: 1.2rem !important;
+  height: 1.2rem !important;
+}
+
+.header__tab__wrapper[active-tab] > .header__tab > .header__tab__name,
+.header__tab__wrapper[active-tab] > .header__tab > .header__tab__organisers {
+  color: var(--color) !important;
+}
+
+.header__tab__name {
+  color: var(--color-accent) !important;
+}
+
+.header__tabs-container .header__tab__wrapper:not([active-tab])[tab-hover] {
+  background-color: var(--color-base02) !important;
+  font-weight: 800 !important;
+}
+
+.header__tab__wrapper::before {
+  display: none !important;
+}
+
+.header__tab__wrapper::after {
+  display: none !important;
+}
+
+.header__tab__wrapper:nth-child(1) > .header__tab {
+  border-bottom-left-radius: 0px !important;
+}
+
+.header__tab__wrapper > .header__tab {
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
+.header__tab__organisers {
+  color: var(--color-text) !important;
+}
+
+.course-module-planner__timeline
+  .timeline-row.planned-element-row:hover
+  .icon-block,
+.course-module-planner__timeline
+  .timeline-row.planned-element-row:hover
+  .card-block {
+  box-shadow: 0 6px 32px rgba(0, 0, 0, 0.5) !important;
+}
+.course-module-planner__timeline .timeline-row.planned-element-row .card-block {
+  box-shadow: none !important;
+}
+.extra-content-container,
+.detail-description__text,
+h3.detail-description__title.title--3,
+.rightblock.js-rightblock,
+.label-oD1iW {
+  color: var(--color-text) !important;
+}
+.rightblock.rightBlock--color.js-rightBlock--color {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-accent) !important;
+}
+.enableAnimations .rightblock.rightBlock--color.js-rightBlock--color {
+  transition: ease-in-out !important;
+  transition-duration: 0.2s !important;
+}
+
+.rightblock.rightBlock--color.js-rightBlock--color:hover {
+  background-color: var(--color-base02) !important;
+}
+
+.invite-status {
+  color: var(--color-text) !important;
+}
+
+.glass
+  .side-panel.sidepanel__participants-list
+  .side-panel__panel
+  .participants-list__row:hover,
+.glass
+  .side-panel.sidepanel__participants-list
+  .side-panel__panel
+  .participants-list__row--active {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--surface-blur) !important;
+}
+
+.side-panel.sidepanel__participants-list
+  .side-panel__panel
+  .participants-list__row:hover,
+.side-panel.sidepanel__participants-list
+  .side-panel__panel
+  .participants-list__row--active {
+  background: var(--color-base01) !important;
+  border-radius: 1rem;
+}
+
+.side-panel.sidepanel__participants-list
+  .side-panel__panel
+  .participants-list__row
+  .description {
+  color: var(--color-text) !important;
+  opacity: 0.7 !important;
+}
+
+button.filter-btn.c-steel-combo-hover--500 {
+  background-color: var(--color-base02) !important;
+  color: var(--color-accent) !important;
+}
+button.filter-btn.c-green-combo-hover--500 {
+  background-color: var(--color-base02) !important;
+  color: var(--color-green) !important;
+}
+button.filter-btn.c-red-combo-hover--500 {
+  background-color: var(--color-base02) !important;
+  color: var(--color-red) !important;
+}
+
+button.filter-btn.c-steel-combo-hover--500:hover {
+  background-color: var(--color-base03) !important;
+  color: var(--color-accent) !important;
+}
+button.filter-btn.c-green-combo-hover--500:hover {
+  background-color: var(--color-base03) !important;
+  color: var(--color-green) !important;
+}
+button.filter-btn.c-red-combo-hover--500:hover {
+  background-color: var(--color-base03) !important;
+  color: var(--color-red) !important;
+}
+
+button.filter-btn.c-steel-combo-hover--100,
+button.filter-btn.c-green-combo-hover--100,
+button.filter-btn.c-red-combo-hover--100 {
+  background: var(--color-base01);
+}
+
+button.filter-btn.c-steel-combo-hover--100:hover {
+  background: var(--color-base02);
+  color: var(--color-text);
+}
+button.filter-btn.c-green-combo-hover--100:hover {
+  background: var(--color-base02);
+  color: var(--color-green) !important;
+}
+button.filter-btn.c-red-combo-hover--100:hover {
+  background: var(--color-base02);
+  color: var(--color-red) !important;
+}
+
+.side-panel.sidepanel__participants-list
+  .side-panel__panel
+  .participants-list__buttonbar {
+  border-top-color: var(--color-base02) !important;
+}
+
+.course-link__button:hover {
+  background-color: var(--color-base03) !important;
+}
+
+.course-module-planner {
+  border-radius: 25px !important;
+}
+
+.planner-preview-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.assignments-icon-160-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.assignments-icon-160 {
+  height: 160px;
+}
+
+.assignments-preview-title {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.icon-label-btn.icon-label-btn--tile.icon-label-btn:hover {
+  border-color: transparent !important;
+  background-color: var(--color-base02);
+  border-radius: 1.5rem;
+}
+
+.bubble.timegrid-plan-bubble .plan-tile-wrapper {
+  padding: 0 !important;
+}
+
+.bubble-s87kI {
+  border-radius: 2rem !important;
+}
+
+.bubble-s87kI.calendar-filter-bubble,
+.bubble-s87kI.bubble.filter-todo-bubble {
+  padding: 1.5rem !important;
+}
+
+.bubble.timegrid-plan-bubble {
+  padding: 1rem !important;
+}
+
+.checkbox-group label.checkbox:last-of-type {
+  margin-bottom: 0 !important;
+}
+
+.arrow-U4LFP {
+  display: none !important;
+}
+
+.calendar-filter {
+  padding: 0px !important;
+}
+
+.timegrid-plan-bubble {
+  border-radius: 2.5rem !important;
+}
+
+.wholedays__expand-button-bottom-filling {
+  display: none;
+}
+
+.timegrid__header .wholedays__expand-button:hover {
+  background-color: var(--color-base02) !important;
+  border-radius: 1rem !important;
+}
+.timegrid__header .wholedays__expand-button-container {
+  background-color: var(--color-base01) !important;
+  border-radius: 1rem !important;
+}
+
+.splitdetail-dialog .birthday-dialog .birthday-dialog__entry:hover {
+  background-color: transparent !important;
+}
+
+.birthday-dialog__header-title {
+  background-color: transparent !important;
+}
+
+.birthday-dialog__header-curve.curve {
+  display: none !important;
+}
+
+.mainPage-Zrcmt.active-view--week .todoColumnContainer-KCyuk {
+  border-left: none !important;
+}
+
+/* planner sidebar - smartschool rotates the class hashes (sidebar-PJxvI, button-mJfIq, ...)
+   on every update, so anchor on the stable data-collapsed / data-selected attributes instead */
+[class*="sidebar-"][data-collapsed] {
+  background: transparent !important;
+  border-color: transparent !important;
+  transition-property: width, background, border-color;
+}
+.enableAnimations [class*="sidebar-"][data-collapsed] [class*="button-"] {
+  transition-property: all !important;
+  transition: 0.1s ease-in-out !important;
+}
+[class*="sidebar-"][data-collapsed] [class*="button-"] {
+  border-radius: 1rem !important;
+  border-width: 2px !important;
+}
+
+[class*="sidebar-"][data-collapsed] [class*="itemsWrapper-"] {
+  gap: 0.2rem !important;
+  padding-left: 0.2rem !important;
+  padding-top: 0.2rem !important;
+}
+
+.glass [class*="sidebar-"][data-collapsed="false"] {
+  backdrop-filter: var(--medium-blur) !important;
+  background: var(--darken-background) !important;
+}
+
+.glass [class*="sidebar-"][data-collapsed] [class*="button-"]:hover {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--medium-blur) !important;
+}
+
+[class*="sidebar-"][data-collapsed] [class*="button-"]:hover {
+  border-color: var(--color-accent) !important;
+  background: var(--color-base02) !important;
+}
+
+[class*="sidebar-"][data-collapsed] [class*="spacer-"]:before,
+[class*="sidebar-"][data-collapsed] [class*="spacer-"]:after {
+  background: transparent !important;
+}
+
+[class*="sidebar-"][data-collapsed] [class*="optionWrapper-"] {
+  border-width: 2px !important;
+}
+
+[class*="sidebar-"][data-collapsed]
+  [class*="optionWrapper-"][data-selected="true"] {
+  background: transparent !important;
+  border-color: transparent !important;
+}
+
+[class*="sidebar-"][data-collapsed]
+  [class*="optionWrapper-"][data-selected="true"]:after,
+[class*="sidebar-"][data-collapsed]
+  [class*="optionWrapper-"][data-selected="true"]:before {
+  display: none !important;
+}
+
+[class*="optionWrapper-"][data-selected="false"] [class*="button-"]:focus {
+  border-color: transparent !important;
+  background: transparent !important;
+}
+[class*="optionWrapper-"][data-selected="false"]
+  [class*="button-"]:focus-visible {
+  border-color: var(--color-accent) !important;
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--medium-blur) !important;
+}
+
+[class*="optionWrapper-"][data-selected="true"] [class*="button-"] {
+  background-color: var(--darken-background) !important;
+  border-color: var(--color-base02) !important;
+}
+
+[class*="optionWrapper-"][data-selected="false"] [class*="button-"]:active {
+  box-shadow: none !important;
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--medium-blur) !important;
+}
+
+.detailLint-hCvSX {
+  background-color: transparent !important;
+  padding-top: 1rem !important;
+}
+
+.lintActionButton-xJeoX {
+  background-color: var(--color-base02) !important;
+}
+
+.lintActionButton-xJeoX:hover {
+  background-color: var(--color-base03) !important;
+}
+
+.js-splitdetail-timegrid-container .personal-profile-picture {
+  width: 4rem !important;
+}
+
+.tileItem-ap6ee:hover {
+  background-color: var(--color-base03) !important;
+  border-color: var(--color-accent) !important;
+}
+
+.tileItem-ap6ee {
+  background-color: var(--color-base02) !important;
+  border: 2px solid var(--color-base03) !important;
+}
+
+.selectAll-nHS8M .label-tLqW4 {
+  color: var(--color-accent) !important;
+}
+
+.divider-tpxhH {
+  width: unset !important;
+  border-bottom: 1px solid var(--color-base02) !important;
+}
+.online-session-bar {
+  background-color: var(--color-base02) !important;
+  border: 2px solid var(--color-accent) !important;
+  box-shadow: none !important;
+  border-radius: 1rem !important;
+}
+
+.planner-header-search-input,
+.input-Axuwg,
+.keyIcon-aoeax {
+  color: var(--color-text) !important;
+  background: var(--color-base01) !important;
+  border-color: var(--color-base02) !important;
+}
+
+.input-Axuwg {
+  border: none !important;
+  outline: none !important;
+}
+
+.glass .planner-header-search-input {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.glass .input-Axuwg,
+.glass .keyIcon-aoeax {
+  background: transparent !important;
+}
+
+.checkbox-module_label__QQfB,
+.iconLabel-module_label__89RYV {
+  color: var(--color-accent) !important;
+}
+
+.filterButton-KvpZ5 {
+  background-color: var(--color-base01) !important;
+  border-color: var(--color-base02) !important;
+}
+
+.glass .filterButton-KvpZ5 {
+  background-color: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+.filterButton-KvpZ5:hover {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+.glass .planner-header .calendar-filter-button {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+  border-color: transparent !important;
+}
+
+.bubble-module_bubble__W48bE {
+  background: var(--color-base01) !important;
+}
+
+/* Sidebar (planner, mail, ...)*/
+.SidebarView-module_itemsWrapper__nO6eD {
+  overflow-x: hidden !important;
+  padding-top: 0.5rem !important;
+}
+
+.OptionView-module_optionWrapper__sUAD3,
+.SpacerView-module_spacer__jpCFx,
+.SidebarView-module_toggleCollapseBtn__STcZI {
+  margin-bottom: 0.3rem !important;
+  margin-left: 0.2rem !important;
+  margin-right: 0.2rem !important;
+}
+
+/* Make space for the added margin (see above)*/
+.SidebarView-module_sidebar__JTjE0 {
+  &[data-collapsed="true"] {
+    width: calc(var(--sidebar-item-size) + 0.4rem) !important;
+  }
+}
+
+.SpacerView-module_spacer__jpCFx::before,
+.SpacerView-module_spacer__jpCFx::after {
+  background-color: var(--color-accent) !important;
+}
+
+.SidebarView-module_toggleCollapseBtn__STcZI,
+.OptionView-module_button__PxKGi {
+  border: 2px solid var(--color-base02) !important;
+  border-radius: 0.66rem;
+  background: var(--color-base01) !important;
+  overflow: hidden !important;
+}
+
+/* Selected button in sidebar */
+.OptionView-module_optionWrapper__sUAD3 {
+  &[data-selected="true"] {
+    & {
+      background: transparent !important;
+    }
+    &::after,
+    &::before {
+      display: none !important;
+    }
+    & .OptionView-module_button__PxKGi {
+      border-color: var(--color-accent) !important;
+    }
+  }
+}
+
+.enableAnimations .SidebarView-module_toggleCollapseBtn__STcZI,
+.enableAnimations .OptionView-module_button__PxKGi {
+  transition:
+    background-color 0.2s,
+    border-color 0.3s,
+    text-decoration 0.1s,
+    width 0.2s,
+    scale 0.2s !important;
+}
+
+.SidebarView-module_toggleCollapseBtn__STcZI:hover,
+.OptionView-module_button__PxKGi:hover {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+/* ==========================================================================
+   Planner > Zoeken & filteren  (/planner/search)
+   This newer Smartschool view ships its containers without a background, so on
+   a custom background + glass theme the whole page reads as unstyled white/photo
+   with barely-legible text. Smartschool rotates the class hashes on every update
+   (searchPage-WSXUO, resultsColumn-SWyNq, savedFiltersPanel-XzZJD, ...), so
+   anchor on the stable CSS-module prefixes.
+   ========================================================================== */
+
+/* Legible text across the page. Elements Smartschool colours on purpose (course
+   labels, the red delete icons, ...) keep their own colour. */
+[class*="searchPage-"] {
+  color: var(--color-text) !important;
+}
+
+/* The layout wrapper between the nav sidebar and the panels */
+[class*="searchPage-"] > [class*="main-"] {
+  background: transparent !important;
+}
+
+/* The two panels: saved-filters sidebar + results column */
+[class*="searchPage-"] [class*="savedFiltersPanel-"],
+[class*="searchPage-"] [class*="resultsColumn-"] {
+  background: var(--color-base00) !important;
+  border: 2px solid var(--color-base01) !important;
+  border-radius: 1rem !important;
+}
+
+.glass [class*="searchPage-"] [class*="savedFiltersPanel-"],
+.glass [class*="searchPage-"] [class*="resultsColumn-"] {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--medium-blur) !important;
+}
+
+/* Inner wrappers stay see-through so the panel background shows through */
+[class*="searchPage-"] [class*="savedFiltersPanelContent-"],
+[class*="searchPage-"] [class*="resultsColumn-"] > * {
+  background-color: transparent !important;
+}
+
+/* Result rows */
+[class*="searchPage-"] [class*="resultsColumn-"] [role="row"]:hover {
+  background-color: var(--color-base01) !important;
+}
+
+/* Search field (title/content query) */
+[class*="searchPage-"] [class*="textInput-large-module_textInput__"],
+[class*="searchPage-"] input[class*="textInput-large-module_input__"] {
+  color: var(--color-text) !important;
+  background-color: var(--color-base01) !important;
+  border-color: var(--color-base02) !important;
+}
+
+[class*="searchPage-"] input[class*="textInput-large-module_input__"] {
+  background-color: transparent !important;
+  border: none !important;
+  outline: none !important;
+}
+
+.glass [class*="searchPage-"] [class*="textInput-large-module_textInput__"] {
+  background-color: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+/* Filter / sort / actions controls in the toolbar (Smartschool's Blueprint
+   combo classes paint these white/light) */
+[class*="searchPage-"] button[class*="badgeButton-module_badgeButton__"],
+[class*="searchPage-"] button[class*="sortButton-"],
+[class*="searchPage-"] button[class*="actionsButton-"] {
+  color: var(--color-text) !important;
+  background: var(--color-base01) !important;
+  border: 2px solid var(--color-base02) !important;
+}
+
+.glass [class*="searchPage-"] button[class*="badgeButton-module_badgeButton__"],
+.glass [class*="searchPage-"] button[class*="sortButton-"],
+.glass [class*="searchPage-"] button[class*="actionsButton-"] {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+[class*="searchPage-"] button[class*="badgeButton-module_badgeButton__"]:hover,
+[class*="searchPage-"] button[class*="sortButton-"]:hover,
+[class*="searchPage-"] button[class*="actionsButton-"]:hover {
+  background: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+/* Active filter badge (Blueprint gives it a blue fill) */
+[class*="searchPage-"]
+  button[class*="badgeButton-module_badgeButton__"][class*="combo-hover-blue"] {
+  border-color: var(--color-accent) !important;
+}
+
+/* Course / item-type label chips on the result rows */
+[class*="searchPage-"] [class*="token-thin-module_token__"] {
+  color: var(--color-text) !important;
+  background-color: var(--color-base02) !important;
+  border: 2px solid var(--color-base03) !important;
+  box-shadow: none !important;
+}
+
+.glass [class*="searchPage-"] [class*="token-thin-module_token__"] {
+  background-color: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+/* Buttons: "Nieuwe zoekopdracht" and the frequently-used filter shortcuts */
+[class*="searchPage-"] [class*="savedFiltersActionButton-"],
+[class*="searchPage-"] button[class*="frequentlyUsedFilterButton-"] {
+  color: var(--color-text) !important;
+  background: var(--color-base01) !important;
+  border: 2px solid var(--color-base02) !important;
+  border-radius: 1rem !important;
+}
+
+.glass [class*="searchPage-"] [class*="savedFiltersActionButton-"],
+.glass [class*="searchPage-"] button[class*="frequentlyUsedFilterButton-"] {
+  background: var(--darken-background) !important;
+  backdrop-filter: var(--small-blur) !important;
+}
+
+[class*="searchPage-"] [class*="savedFiltersActionButton-"]:hover,
+[class*="searchPage-"] button[class*="frequentlyUsedFilterButton-"]:hover {
+  background: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+/* Active / applied saved filter */
+[class*="searchPage-"]
+  button[class*="frequentlyUsedFilterButton-"][aria-pressed="true"] {
+  border-color: var(--color-accent) !important;
+}
+
+.heading1-ZycsP {
+  color: var(--color-accent) !important;
+}
+
+.confirmDialogcontent-module_confirmDialog__UEoXU
+  .confirmDialogcontent-module_title__kSLHK.confirmDialogcontent-module_title__kSLHK,
+.quickSelectionLabel-Snt3W,
+.secondaryText-_Uy73,
+.resultsHeaderCountWrapper-aeidr .resultsHeaderCount-iKoMu {
+  color: var(--color-text) !important;
+  opacity: 0.7 !important;
+}
+
+.savedFiltersList-IQU2q,
+.savedFiltersPanelContent-zPsJF {
+  display: flex !important;
+  flex-direction: column !important;
+  gap: 0.5rem !important;
+}
+
+.savedFiltersPanelContent-zPsJF {
+  gap: 1.5rem !important;
+}
+
+.badgeButton-module_badgeButton__qmorB
+  .graphic-module_graphic__atMsS.typography-module_small__mM11L
+  svg
+  path,
+.savedFiltersActionButton-TCkOq
+  .graphic-module_graphic__atMsS.typography-module_small__mM11L
+  svg
+  path {
+  fill: var(--color-accent) !important;
+}
+
+.header-re5ki {
+  margin-top: 1.5rem !important;
+}
+
+.skeletonActive-jRvd3 {
+  background-color: color-mix(
+    in srgb,
+    var(--color-base01) 20%,
+    transparent 80%
+  ) !important;
+  background-image: none !important;
+  animation: none !important;
+}
+
+input.textInput-module_input__QXUhg,
+.textInput-module_textInput__F7cmQ {
+  background-color: var(--color-base01) !important;
+}
+
+.textInput-large-module_textInput__paLj5:focus-within {
+  outline: none !important;
+}
+
+.textInput-large-module_textInput__paLj5 svg path,
+.dropdownMenuItem-module_graphicWrapper__1P1Vp svg path {
+  fill: var(--color-accent) !important;
+}
+
+.selectDropdownPanel-module_infoBar__gdvIo,
+.textInput-module_textInput__F7cmQ {
+  border-color: var(--color-base02) !important;
+}
+
+.selectDropdownPanel-module_infoBarKey__7vVl1 {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+  color: var(--color-text) !important;
+}
+
+.dropdownMenuItem-module_menuItem__d5o6D.dropdownMenuItem-module_menuItem__d5o6D.dropdownMenuItem-module_menuItem__d5o6D.dropdownMenuItem-module_menuItem__d5o6D:focus-visible:after,
+.dropdownMenuItem-module_menuItem__d5o6D.dropdownMenuItem-module_menuItem__d5o6D.dropdownMenuItem-module_menuItem__d5o6D.dropdownMenuItem-module_menuItem__d5o6D[data-keyboard-focused]:after {
+  border-color: var(--color-accent) !important;
+}
+
+.blueprintFallback-module_blueprintFallback__OTQiZ
+  .bp-c-combo-hover-plain-outline--300,
+.blueprintFallback-module_blueprintFallback__OTQiZ
+  .bp-c-combo-plain-outline--300,
+.dateButton-jZ2Yb {
+  background-color: var(--color-base01) !important;
+  border-color: var(--color-base02) !important;
+}
+
+.blueprintFallback-module_blueprintFallback__OTQiZ
+  .bp-c-combo-hover-plain-outline--300,
+.blueprintFallback-module_blueprintFallback__OTQiZ
+  .bp-c-combo-plain-outline--300:hover,
+.dateButton-jZ2Yb:hover {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+.dropdownMenuItem-module_dropdownMenuItem__DtSMN:hover:not(:disabled) {
+  background-color: var(--color-base02) !important;
+  border-radius: 1rem !important;
+}
+
+.bubble-module_bubble__W48bE {
+  border-radius: 1.5rem !important;
+}
+
+.badgeButton-module_badgeButton__qmorB {
+  border-radius: 0.75rem !important;
+}
+.iconButtonBar-module_iconButtonBar__F7U7t {
+  background-color: var(--color-base02) !important;
+  border: none !important;
+  border-radius: 0.75rem !important;
+}
+
+.blueprintFallback-module_blueprintFallback__OTQiZ .bp-c-combo-danger--300,
+.blueprintFallback-module_blueprintFallback__OTQiZ
+  .bp-c-combo-hover-danger--300 {
+  background-color: var(--color-base02) !important;
+  border-color: var(--color-base03) !important;
+}
+
+.blueprintFallback-module_blueprintFallback__OTQiZ .bp-c-combo-danger--300,
+.blueprintFallback-module_blueprintFallback__OTQiZ
+  .bp-c-combo-hover-danger--300:hover {
+  border-color: var(--color-red) !important;
+}
+
+.detail-header.detail-header.detail-header--create
+  [inline-editor]
+  input[data-inline-editor-input] {
+  background-color: var(--color-base01) !important;
+}
+
+.headerIconButton-ksZBS,
+.headerIconLoading-e6FMT {
+  box-shadow: none !important;
+  background-color: var(--color-base01) !important;
+}
+
+.plannerSearchInput-zY7Ue.planner-header-search-input svg path {
+  stroke: var(--color-text) !important;
+}
+
+.gridDayCell-module_gridDayCell__aSu8m {
+  color: var(--color-text) !important;
+}
+
+.gridDayCell-module_gridDayCellOutOfPeriod__dZYj1,
+.gridDayCell-module_gridDayCellWeekendOrHoliday__4rQl1 {
+  color: color-mix(in srgb, var(--color-text) 70%, transparent 30%) !important;
+}
+
+.gridDayCell-module_gridDayCell__aSu8m[aria-selected="true"].gridDayCell-module_selectedStart__sQFpa
+  .gridDayCell-module_gridDayCellTextContainer__1ZhK7,
+.gridDayCell-module_gridDayCell__aSu8m[aria-selected="true"]
+  .gridDayCell-module_gridDayCellTextContainer__1ZhK7,
+.gridDayCell-module_gridDayCell__aSu8m[aria-selected="true"].gridDayCell-module_selectedEnd__JmsIr
+  .gridDayCell-module_gridDayCellTextContainer__1ZhK7 {
+  border-color: var(--color-accent) !important;
+  color: var(--color-text) !important;
+}
+
+.gridDayCell-module_gridDayCell__aSu8m[aria-selected="true"]
+  .gridDayCell-module_gridDayCellTextContainer__1ZhK7 {
+  background-color: var(--color-base02) !important;
+}
+
+td.gridDayCell-module_gridDayCell__aSu8m:hover
+  .gridDayCell-module_gridDayCellTextContainer__1ZhK7 {
+  background-color: var(--color-base03) !important;
+}
+
+kbd.hint-BhrXn.bp-c-combo-white--100,
+.gridDayCell-module_gridDayCell__aSu8m:focus:not([aria-disabled="true"])
+  .gridDayCell-module_gridDayCellTextContainer__1ZhK7 {
+  background-color: var(--color-accent) !important;
+  color: var(--color-base00) !important;
+}
+
+.datepicker-module_navigationButton__t-ffd {
+  border: none !important;
+  background-color: var(--color-base02) !important;
+}
+
+.datepicker-module_navigationButton__t-ffd:hover {
+  background-color: var(--color-base03) !important;
+}
+
+kbd.hint-BhrXn.bp-c-combo-white--100 {
+  border: none !important;
+}
