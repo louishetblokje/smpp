@@ -279,14 +279,17 @@ async function applyDailyRandomBackground(
 
   const categories = (await browser.runtime.sendMessage({
     action: "getThemeCategories",
-    includeHidden: false,
+    includeHidden: true,
   })) as Record<string, string[]>;
+
+  const hiddenThemeNames = categories["hidden"] ?? [];
 
   const themeNames = [
     ...new Set(
       Object.entries(categories)
-        .filter(([category]) => category !== "custom")
+        .filter(([category]) => category !== "custom" && category !== "hidden")
         .flatMap(([, names]) => names)
+        .filter((name) => !hiddenThemeNames.includes(name))
     ),
   ];
 
@@ -298,9 +301,11 @@ async function applyDailyRandomBackground(
 
   const now = new Date();
 
-  const today = now.toLocaleDateString("en-CA", {
-    timeZone: "Europe/Brussels",
-  });
+  const today = [
+    now.getFullYear(),
+    String(now.getMonth() + 1).padStart(2, "0"),
+    String(now.getDate()).padStart(2, "0"),
+  ].join("-");
 
   const updateTime = new Date(now);
   updateTime.setHours(DAILY_UPDATE_HOUR, DAILY_UPDATE_MINUTE, 0, 0);
@@ -353,8 +358,12 @@ async function applyDailyRandomBackground(
   }
 
   dailyBackgroundTimer = setTimeout(
-    () => {
-      void applyDailyRandomBackground(appearance, true);
+    async () => {
+      const latestSettings = (await browser.runtime.sendMessage({
+        action: "getSettingsData",
+      })) as Settings;
+
+      await applyDailyRandomBackground(latestSettings.appearance, true);
     },
     Math.max(1000, nextUpdate.getTime() - now.getTime())
   );

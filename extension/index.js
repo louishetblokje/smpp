@@ -16441,8 +16441,8 @@ ${code}`;
     liteMode = browser.runtime.getManifest().name.includes("Lite");
   }
   var dailyBackgroundTimer;
-  var DAILY_UPDATE_HOUR = 20;
-  var DAILY_UPDATE_MINUTE = 51;
+  var DAILY_UPDATE_HOUR = 0;
+  var DAILY_UPDATE_MINUTE = 0;
   async function applyDailyRandomBackground(appearance, chooseNew = false) {
     if (dailyBackgroundTimer) {
       clearTimeout(dailyBackgroundTimer);
@@ -16456,11 +16456,12 @@ ${code}`;
     }
     const categories = await browser.runtime.sendMessage({
       action: "getThemeCategories",
-      includeHidden: false
+      includeHidden: true
     });
+    const hiddenThemeNames = categories["hidden"] ?? [];
     const themeNames = [
       ...new Set(
-        Object.entries(categories).filter(([category]) => category !== "custom").flatMap(([, names]) => names)
+        Object.entries(categories).filter(([category]) => category !== "custom" && category !== "hidden").flatMap(([, names]) => names).filter((name) => !hiddenThemeNames.includes(name))
       )
     ];
     if (themeNames.length === 0) {
@@ -16469,9 +16470,11 @@ ${code}`;
       return;
     }
     const now = /* @__PURE__ */ new Date();
-    const today = now.toLocaleDateString("en-CA", {
-      timeZone: "Europe/Brussels"
-    });
+    const today = [
+      now.getFullYear(),
+      String(now.getMonth() + 1).padStart(2, "0"),
+      String(now.getDate()).padStart(2, "0")
+    ].join("-");
     const updateTime = new Date(now);
     updateTime.setHours(DAILY_UPDATE_HOUR, DAILY_UPDATE_MINUTE, 0, 0);
     const updateTimePassed = now >= updateTime;
@@ -16504,8 +16507,11 @@ ${code}`;
       nextUpdate.setDate(nextUpdate.getDate() + 1);
     }
     dailyBackgroundTimer = setTimeout(
-      () => {
-        void applyDailyRandomBackground(appearance, true);
+      async () => {
+        const latestSettings = await browser.runtime.sendMessage({
+          action: "getSettingsData"
+        });
+        await applyDailyRandomBackground(latestSettings.appearance, true);
       },
       Math.max(1e3, nextUpdate.getTime() - now.getTime())
     );
